@@ -44,8 +44,8 @@ config = {
       options: {
         service: 'Mailgun',
         auth: {
-          user: process.env.MAILGUN_SMTP_LOGIN,
-          pass: process.env.MAILGUN_SMTP_PASSWORD
+          user: 'postmaster@theologically.herokuapp.com',
+          pass: '5ddca7a27c22abb268f83e703542268e'
         }
       }
     },
